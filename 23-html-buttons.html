@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Botones</title>
+
+    <style>
+        .boton-verde {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Botones en HTML</h1>
+
+    <h2>Botón normal</h2>
+    <button type="button">Ver departamentos</button>
+
+    <h2>Botón con estilo</h2>
+    <button class="boton-verde" type="button">
+        Consultar municipios
+    </button>
+
+    <h2>Botón deshabilitado</h2>
+    <button type="button" disabled>
+        Servicio no disponible
+    </button>
+
+    <h2>Botón con JavaScript</h2>
+    <button type="button" onclick="alert('¡Bienvenido a Guatemala!')">
+        Saludar
+    </button>
+
+    <h2>Tipos de botones</h2>
+
+    <form>
+        <label>Nombre:</label>
+        <input type="text" name="nombre">
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+
+</body>
+
+</html>
