@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Div</title>
+
+    <style>
+        .contenedor {
+            width: 300px;
+            margin: auto;
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .ciudades {
+            display: flex;
+        }
+
+        .ciudades div {
+            width: 33%;
+            border: 1px solid gray;
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Elemento Div</h1>
+
+    <h2>Div como contenedor</h2>
+
+    <div class="contenedor">
+        <h3>Ciudad de Guatemala</h3>
+        <p>Es la capital de Guatemala.</p>
+        <p>Es el centro político y económico del país.</p>
+    </div>
+
+    <h2>Varios elementos Div</h2>
+
+    <div>
+        <h3>Chiquimula</h3>
+        <p>Conocida como la Perla de Oriente.</p>
+    </div>
+
+    <div>
+        <h3>Zacapa</h3>
+        <p>Famosa por su clima cálido.</p>
+    </div>
+
+    <div>
+        <h3>Jutiapa</h3>
+        <p>Ubicada en el suroriente de Guatemala.</p>
+    </div>
+
+    <h2>Div alineados lado a lado (Flex)</h2>
+
+    <div class="ciudades">
+
+        <div>
+            <h3>Guatemala</h3>
+            <p>Capital del país.</p>
+        </div>
+
+        <div>
+            <h3>Quetzaltenango</h3>
+            <p>Conocida como Xela.</p>
+        </div>
+
+        <div>
+            <h3>Cobán</h3>
+            <p>Famosa por su clima fresco.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
