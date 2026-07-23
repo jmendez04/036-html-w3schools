@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <h1>JavaScript en HTML</h1>
+
+    <h2>Cambiar contenido</h2>
+
+    <p id="mensaje">Bienvenido a Guatemala.</p>
+
+    <button onclick="document.getElementById('mensaje').innerHTML='¡Hola desde Chiquimula!'">
+        Cambiar texto
+    </button>
+
+    <hr>
+
+    <h2>Cambiar estilos</h2>
+
+    <p id="texto">Este texto cambiará de estilo.</p>
+
+    <button onclick="
+        document.getElementById('texto').style.fontSize='24px';
+        document.getElementById('texto').style.color='blue';
+        document.getElementById('texto').style.backgroundColor='lightyellow';
+    ">
+        Cambiar estilo
+    </button>
+
+    <hr>
+
+    <h2>Cambiar imagen</h2>
+
+    <img
+        id="imagen"
+        src="https://www.w3schools.com/html/img_chania.jpg"
+        alt="Imagen"
+        width="300">
+
+    <br><br>
+
+    <button onclick="document.getElementById('imagen').src='https://www.w3schools.com/html/pic_trulli.jpg'">
+        Cambiar imagen
+    </button>
+
+    <noscript>
+        Tu navegador no admite JavaScript o está deshabilitado.
+    </noscript>
+
+</body>
+
+</html>
