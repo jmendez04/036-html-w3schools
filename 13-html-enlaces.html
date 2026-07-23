@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enlaces</title>
+
+    <style>
+        /* Colores de los enlaces */
+        a:link {
+            color: green;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: purple;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: orange;
+        }
+
+        /* Enlace como botón */
+        .boton {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .boton:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Enlaces en HTML</h1>
+
+    <h2>Enlace básico</h2>
+
+    <p>
+        <a href="https://www.w3schools.com" target="_blank">
+            Visitar W3Schools
+        </a>
+    </p>
+
+    <h2>Enlace absoluto</h2>
+
+    <p>
+        <a href="https://www.google.com" target="_blank">
+            Ir a Google
+        </a>
+    </p>
+
+    <h2>Enlace relativo</h2>
+
+    <p>
+        <a href="https://www.youtube.com">
+            Ir a otra página
+        </a>
+    </p>
+
+    <h2>Enlace de correo</h2>
+
+    <p>
+        <a href="mailto:ejemplo@correo.com">
+            Enviar correo
+        </a>
+    </p>
+
+    <h2>Botón como enlace</h2>
+
+    <button onclick="document.location='https://www.w3schools.com'">
+        Abrir W3Schools
+    </button>
+
+    <h2>Enlace con título</h2>
+
+    <p>
+        <a href="https://www.w3schools.com/html/"
+            title="Ir al tutorial de HTML"
+            target="_blank">
+            Tutorial de HTML
+        </a>
+    </p>
+
+    <h2>Enlace con apariencia de botón</h2>
+
+    <a class="boton"
+        href="https://www.w3schools.com"
+        target="_blank">
+        Botón de enlace
+    </a>
+
+    <hr>
+
+    <h2>Marcadores (Bookmarks)</h2>
+
+    <p><a href="#capitulo3">Ir al Capítulo 3</a></p>
+
+    <h3>Capítulo 1</h3>
+
+    <p>Contenido de ejemplo.</p>
+
+    <h3>Capítulo 2</h3>
+
+    <p>Contenido de ejemplo.</p>
+
+    <h3 id="capitulo3">Capítulo 3</h3>
+
+    <p>Este es el destino del marcador.</p>
+
+</body>
+
+</html>
