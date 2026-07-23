@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iFrames</title>
+</head>
+
+<body>
+
+    <h1>Ejemplo de iFrame en HTML</h1>
+
+    <h2>iFrame básico</h2>
+
+    <iframe
+        src="https://www.w3schools.com"
+        title="Página de W3Schools"
+        width="600"
+        height="300">
+    </iframe>
+
+    <h2>iFrame sin borde</h2>
+
+    <iframe
+        src="https://www.wikipedia.org"
+        title="Wikipedia"
+        style="width:600px; height:300px; border:none;">
+    </iframe>
+
+    <h2>Enlace que cambia el contenido del iFrame</h2>
+
+    <iframe
+        src="about:blank"
+        name="miFrame"
+        title="iFrame de ejemplo"
+        width="600"
+        height="300">
+    </iframe>
+
+    <br><br>
+
+    <a href="https://www.guatemala.com" target="miFrame">
+        Abrir Guatemala.com
+    </a>
+
+</body>
+
+</html>
