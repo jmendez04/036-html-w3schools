@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header,
+        nav,
+        section,
+        article,
+        aside,
+        footer {
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+
+        header {
+            background-color: lightblue;
+        }
+
+        nav {
+            background-color: lightgray;
+        }
+
+        section {
+            display: flex;
+        }
+
+        article {
+            flex: 3;
+            background-color: white;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f0f0f0;
+        }
+
+        footer {
+            background-color: lightblue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi Sitio Web</h1>
+    </header>
+
+    <nav>
+        Inicio | Productos | Contacto
+    </nav>
+
+    <section>
+        <article>
+            <h2>Artículo principal</h2>
+            <p>Este es el contenido principal de la página.</p>
+        </article>
+
+        <aside>
+            <h3>Barra lateral</h3>
+            <p>Información adicional.</p>
+        </aside>
+    </section>
+
+    <footer>
+        <p>© 2026 Mi Sitio Web</p>
+    </footer>
+
+</body>
+
+</html>
