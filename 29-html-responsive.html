@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Responsivo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 8vw;
+        }
+
+        .left,
+        .main,
+        .right {
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .left,
+        .right {
+            width: 20%;
+            background: #f0f0f0;
+        }
+
+        .main {
+            width: 60%;
+            background: #dddddd;
+        }
+
+        @media screen and (max-width: 800px) {
+            .left,
+            .main,
+            .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Diseño Responsivo</h1>
+
+    <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Imagen Responsiva">
+
+    <div class="left">
+        <h2>Menú</h2>
+        <p>Inicio</p>
+    </div>
+
+    <div class="main">
+        <h2>Contenido</h2>
+        <p>Este contenido cambia según el tamaño de la pantalla.</p>
+    </div>
+
+    <div class="right">
+        <h2>Información</h2>
+        <p>Barra lateral.</p>
+    </div>
+
+</body>
+
+</html>
